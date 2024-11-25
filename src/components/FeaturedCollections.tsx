@@ -5,19 +5,19 @@ const collections = [
   {
     title: "Silk Elegance",
     description: "Luxurious silk sarees for special occasions",
-    image: "https://images.unsplash.com/photo-1610030469668-8e9f638121dd?w=800",
+    image: "https://images.unsplash.com/photo-1610030469978-6bb537f3b982?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     link: "#"
   },
   {
     title: "Designer Drapes",
     description: "Contemporary designs meet traditional aesthetics",
-    image: "https://images.unsplash.com/photo-1610030469668-8e9f638121dd?w=800",
+    image: "https://images.unsplash.com/photo-1610030469839-f909584b43f1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     link: "#"
   },
   {
     title: "Daily Wear Comfort",
     description: "Comfortable and stylish everyday sarees",
-    image: "https://images.unsplash.com/photo-1610030469668-8e9f638121dd?w=800",
+    image: "https://images.unsplash.com/photo-1610030469978-6bb537f3b982?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     link: "#"
   }
 ];

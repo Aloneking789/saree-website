@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import ImageSlider from './components/ImageSlider';
 import ProductCard from './components/ProductCard';
 import FeaturedCollections from './components/FeaturedCollections';
 import WhyChooseUs from './components/WhyChooseUs';
@@ -13,7 +14,7 @@ const products = [
     name: 'Pink Linen Saree',
     price: 3299,
     originalPrice: 5999,
-    image: 'https://images.unsplash.com/photo-1610030469668-8e9f638121dd?w=800',
+    image: 'https://images.unsplash.com/photo-1716504628105-bd76d91e85f2?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     discount: 45
   },
   {
@@ -21,7 +22,7 @@ const products = [
     name: 'Beige Silk Saree',
     price: 3799,
     originalPrice: 6999,
-    image: 'https://images.unsplash.com/photo-1610030469668-8e9f638121dd?w=800',
+    image: 'https://images.unsplash.com/photo-1634715400668-2be61c363042?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     discount: 45
   },
   {
@@ -29,7 +30,7 @@ const products = [
     name: 'Blue Silk Saree',
     price: 3099,
     originalPrice: 5999,
-    image: 'https://images.unsplash.com/photo-1610030469668-8e9f638121dd?w=800',
+    image: 'https://images.unsplash.com/photo-1716504628105-bd76d91e85f2?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     discount: 47
   },
   {
@@ -37,7 +38,7 @@ const products = [
     name: 'Purple Silk Saree',
     price: 3099,
     originalPrice: 5999,
-    image: 'https://images.unsplash.com/photo-1610030469668-8e9f638121dd?w=800',
+    image: 'https://images.unsplash.com/photo-1634715400668-2be61c363042?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     discount: 38
   }
 ];
@@ -46,26 +47,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
-      
-      {/* Hero Section */}
-      <div className="relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-pink-600/90 to-pink-600/70" />
-        <div className="relative h-[70vh] bg-[url('https://images.unsplash.com/photo-1610030469668-8e9f638121dd?w=1920')] bg-cover bg-center">
-          <div className="absolute inset-0 flex items-center justify-center text-center">
-            <div className="max-w-3xl px-4">
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-                Discover Timeless Elegance
-              </h1>
-              <p className="text-xl text-white mb-8">
-                Explore our collection of handcrafted sarees from India's finest artisans
-              </p>
-              <button className="bg-white text-pink-600 px-8 py-3 rounded-md text-lg font-medium hover:bg-pink-50 transition-colors">
-                Shop Now
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ImageSlider />
 
       {/* Featured Collections */}
       <FeaturedCollections />
